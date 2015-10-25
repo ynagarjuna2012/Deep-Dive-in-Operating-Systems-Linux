@@ -9,7 +9,7 @@ Magic behind the docker's success can be realized when we have an basic idea abo
 Unionfs is a filesystem service for Linux, FreeBSD and NetBSD which implements a union mount for other file systems. It allows files and directories of separate file systems, known as branches, to be transparently overlaid, forming a single coherent file system. Contents of directories which have the same path within the merged branches will be seen together in a single merged directory, within the new, virtual filesystem.
 [Source](https://en.wikipedia.org/wiki/UnionFS)
 
-**Must Read : Interesting article on How UnionFS works can be found on [Linux Journal](http://www.linuxjournal.com/article/7714). **
+**Must Read : Interesting article on How UnionFS works can be found on [Linux Journal](http://www.linuxjournal.com/article/7714).**
  This article is exhaustive and concise which will change your perspective on how you look at the things while using docker.
 
 
