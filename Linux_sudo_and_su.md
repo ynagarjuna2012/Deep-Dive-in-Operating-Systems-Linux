@@ -72,7 +72,7 @@ Sudo (su "do") allows a system administrator to give certain users (or groups of
 - Sudo's configuration file, the sudoers file, is setup in such a way that the same sudoers file may be used on many machines. This allows for central administration while keeping the flexibility to define a user's privileges on a per-host basis. Please see the samples sudoers file below for a real-world example.
 
 
-**[Sudoers  is a default sudo security policy plugin](http://www.sudo.ws/man/sudoers.man.html) : ** This policy plugin determines a user's sudo privileges. It is the default sudo policy plugin. The policy is driven by the /etc/sudoers file or, optionally in LDAP. The policy format is described in detail in the SUDOERS FILE FORMAT section. For information on storing sudoers policy information in LDAP
+**[Sudoers  is a default sudo security policy plugin](http://www.sudo.ws/man/sudoers.man.html) : ** This policy plugin determines a user's sudo privileges. It is the default sudo policy plugin. The policy is driven by the /etc/sudoers.d/username file or, optionally in LDAP. The policy format is described in detail in the SUDOERS FILE FORMAT section. For information on storing sudoers policy information in LDAP
 
 Guides/Tutorials:
 
